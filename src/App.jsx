@@ -1,17 +1,17 @@
 import "./App.css";
-import Intro from "./Intro";
-import Navbar from "./Navbar";
-import Features from "./Features";
-import About from "./About";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./Homepage";
+import ScrollToAnchor from "./ScrollToAnchor";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Intro />
-      <Features />
-      <About />
-    </>
+    <BrowserRouter>
+      <ScrollToAnchor />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

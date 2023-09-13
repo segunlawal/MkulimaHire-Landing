@@ -17,7 +17,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="py-5 bg-[#f3f3f2] text-center">
+    <div className="py-5 bg-[#f3f3f2] text-center" id="features">
       <p className="text-center sm:text-2xl text-lg font-semibold">
         Discover & enjoy our{" "}
         <span className="text-[#74c116]">amazing features</span>
@@ -30,19 +30,13 @@ const Features = () => {
       <div className="">
         <div className="lg:flex justify-center gap-x-12 mt-5 mx-auto w-fit">
           {aboutArr.map((item) => (
-            <div key={item.title}>
-              <p
-                fontSize="1.2rem"
-                fontWeight={500}
-                className="whitespace-nowrap"
-              >
-                {item.title}
-              </p>
+            <div key={item.title} className="lg:mb-0 mb-5">
+              <p className="text-left">{item.title}</p>
               <hr className="border-[#74c116] border-[1.5px] my-2 lg:w-full w-72" />
               <img
                 src={item.pic}
                 alt="farm"
-                className="w-[250px] lg:mx-auto mt-5"
+                className="w-[250px] lg:mx-auto mt-5 shadow-lg rounded-sm"
               />
             </div>
           ))}

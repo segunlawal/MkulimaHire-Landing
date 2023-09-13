@@ -7,6 +7,7 @@ const Intro = () => {
       style={{
         backgroundImage: `url(${farm_one})`,
       }}
+      id="intro"
     >
       <div className="flex gap-x-2 justify-center relative z-20">
         <hr className="border-2 border-[#f2f2f2] w-1/3 my-auto" />
