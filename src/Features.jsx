@@ -1,5 +1,6 @@
-import farm_one from "./assets/farm-one.jpg";
+import worker from "./assets/worker.png";
 import auth from "./assets/auth.png";
+import farmer from "./assets/farmer.png";
 
 const Features = () => {
   const aboutArr = [
@@ -9,11 +10,11 @@ const Features = () => {
     },
     {
       title: "Create a job posting as a farmer",
-      pic: farm_one,
+      pic: farmer,
     },
     {
       title: "Apply for jobs as a worker",
-      pic: farm_one,
+      pic: worker,
     },
   ];
 
@@ -36,8 +37,8 @@ const Features = () => {
               <hr className="border-[#74c116] border-[1.5px] my-2 lg:w-full w-72" />
               <img
                 src={item.pic}
-                alt="farm"
-                className="w-[300px] lg:mx-auto mt-5 shadow-lg rounded-sm"
+                alt="feature"
+                className="w-[305px] lg:mx-auto mt-5 shadow-lg rounded-sm"
               />
             </div>
           ))}
