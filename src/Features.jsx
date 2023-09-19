@@ -24,7 +24,7 @@ const Features = () => {
         Discover & enjoy our{" "}
         <span className="text-[#74c116]">amazing features</span>
       </p>
-      <p className="text-center sm:mx-auto mx-5 text-base">
+      <p className="text-center sm:mx-auto mx-3 text-base">
         Embark on a journey of discovery of features, designed to connect
         employers and employees
       </p>
