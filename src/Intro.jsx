@@ -24,12 +24,14 @@ const Intro = () => {
       </p>
 
       <div className="flex justify-center relative z-20">
-        <button
-          type="submit"
-          className="bg-[#74c116] text-[#f2f2f2] px-10 py-2 sm:w-[30rem] w-80 mx-auto rounded-lg mt-5"
-        >
-          JOIN THE COMMUNITY
-        </button>
+        <a href="https://mkulimahire.vercel.app/" target="__blank">
+          <button
+            type="submit"
+            className="bg-[#74c116] text-[#f2f2f2] px-10 py-2 sm:w-[30rem] w-80 mx-auto rounded-lg mt-5"
+          >
+            JOIN THE COMMUNITY
+          </button>
+        </a>
       </div>
 
       <div className="absolute w-full h-full bg-[#000000] bg-opacity-70 top-0"></div>
