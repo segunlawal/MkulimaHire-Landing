@@ -25,8 +25,8 @@ const Features = () => {
         <span className="text-[#74c116]">amazing features</span>
       </p>
       <p className="text-center text-base">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsum
-        iste provident exe
+        Embark on a journey of discovery of features, designed to connect
+        employers and employees
       </p>
 
       <div className="">

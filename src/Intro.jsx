@@ -18,9 +18,9 @@ const Intro = () => {
         MKULIMA HIRE
       </p>
       <p className="text-center text-base text-[#f2f2f2] w-[60%] mx-auto z-20 relative">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsum
-        iste provident exercitationem ut vel eum saepe dolores eveniet facilis,
-        animi non ducimus? Voluptates cumque nulla cum commodi, enim eaque.
+        MkulimaHire aims to revolutionize agriculture in Kenya by connnecting
+        farmers and workers through a user-friendly web platform, fostering
+        growth, and sustainability.
       </p>
 
       <div className="flex justify-center relative z-20">
